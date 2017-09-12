@@ -1,0 +1,15 @@
+service: hello-serverless
+
+provider:
+  name: faas
+  runtime: node
+
+functions:
+  hello-serverless:
+    handler: ./serv
+    image: hello-serverless
+    lang: node
+
+plugins:
+  - serverless-faas
+
