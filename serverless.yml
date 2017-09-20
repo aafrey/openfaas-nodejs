@@ -13,3 +13,5 @@ functions:
 plugins:
   - serverless-faas
 
+package:
+  artifact: none
