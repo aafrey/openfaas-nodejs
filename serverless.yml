@@ -6,7 +6,7 @@ provider:
 
 functions:
   hello-serverless:
-    handler: ./serv
+    handler: ./function
     image: hello-serverless
     lang: node
 
