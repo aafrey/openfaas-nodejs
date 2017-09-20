@@ -3,6 +3,7 @@ service: hello-serverless
 provider:
   name: faas
   runtime: node
+  gateway: http://localhost:8080
 
 functions:
   hello-serverless:
